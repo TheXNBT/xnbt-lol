@@ -1,9 +1,9 @@
 :root {
     --border: rgb(255, 255, 255);
     
-    --g1: rgb(168, 0, 234);
-    --g2: rgb(236, 64, 222);
-    --g3: rgb(253, 53, 103);
+    --g1: rgb(84, 43, 100);
+    --g2: rgb(122, 50, 116);
+    --g3: rgb(255, 136, 166);
   }
 
   body {
@@ -34,11 +34,14 @@
   }
 
   .card-title,
-.card-subtitle {
+.card-subtitle, .card-subtitle li a{
   color: white;
   font-family: "Anek Latin", sans-serif;
   font-weight: 400;
   margin: 0px;
+}
+.card-subtitle li{
+    padding: 2px;
 }
 
 .card:before {
